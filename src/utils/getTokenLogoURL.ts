@@ -10,7 +10,7 @@ const mapping = {
 
 const getTokenLogoURL = (token?: Token) => {
   if (token && mapping[token.chainId]) {
-    return `https://raw.githubusercontent.com/Meritz12456/TokenImages/main/${token.address}.png`
+    return `https://raw.githubusercontent.com/LandChronicle/TokenImages/main/${token.address}.png`
   }
   return null
 }
