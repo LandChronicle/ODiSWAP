@@ -51,12 +51,13 @@ export const StakingApy = memo(({ pool }: { pool: DeserializedPool }) => {
           <Skeleton width="80px" height="16px" />
         )}
       </Flex>
-      {/*pool.vaultKey === VaultKey.CakeVault && (
+ {/*  
+      {pool.vaultKey === VaultKey.CakeVault && (
         <Flex alignItems="center" justifyContent="space-between">
           <Text color="textSubtle" textTransform="uppercase" bold fontSize="12px">
             {t('Locked')} APY:
           </Text>
-          { {lockedApy ? (
+           {lockedApy ? (
             <FlexGap gap="4px" flexWrap="wrap" justifyContent="flex-end">
               <Text style={{ whiteSpace: 'nowrap' }} bold>
                 {t('Up to')}
@@ -78,10 +79,11 @@ export const StakingApy = memo(({ pool }: { pool: DeserializedPool }) => {
                 </Button>
               </AprLabelContainer>
             </FlexGap>
-          ) : ( }
+          ) : ( 
             <Skeleton width="80px" height="16px" />
         </Flex>
-          )*/}
+      )} 
+ */}
     </LightGreyCard>
   )
 })
