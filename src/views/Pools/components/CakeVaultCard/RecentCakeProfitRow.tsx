@@ -19,9 +19,7 @@ const RecentCakeProfitCountdownRow = ({ pool }: { pool: DeserializedPool }) => {
     pricePerFullShare,
     cakePriceBusd.toNumber(),
     pool.vaultKey === VaultKey.CakeVault
-      ? (userData as DeserializedLockedVaultUser).currentPerformanceFee.plus(
-          (userData as DeserializedLockedVaultUser).currentOverdueFee,
-        )
+      ? null
       : null,
   )
 
