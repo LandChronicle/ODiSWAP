@@ -22,6 +22,8 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
          label: '—',
        },
     ],
+  },
+  {
     label: t('Developers'),
     items: [
        {
