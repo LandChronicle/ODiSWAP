@@ -12,6 +12,7 @@ import { MENU_HEIGHT, MOBILE_MENU_HEIGHT, TOP_BANNER_HEIGHT, TOP_BANNER_HEIGHT_M
 import { NavProps } from "./types";
 import LangSelector from "../../components/LangSelector/LangSelector";
 import { MenuContext } from "./context";
+import Footer from "../../components/Footer";
 
 const Wrapper = styled.div`
   position: relative;
@@ -167,9 +168,9 @@ const Menu: React.FC<React.PropsWithChildren<NavProps>> = ({
           </Flex>
         )}
         <BodyWrapper mt={!subLinks ? `${totalTopMenuHeight + 1}px` : "0"}>
-          <Inner isPushed={false} showMenu={showMenu}>
+        <Inner isPushed={false} showMenu={showMenu}>
             {children}
-            {/* <Footer
+             <Footer
               items={footerLinks}
               isDark={isDark}
               toggleTheme={toggleTheme}
@@ -179,7 +180,7 @@ const Menu: React.FC<React.PropsWithChildren<NavProps>> = ({
               cakePriceUsd={cakePriceUsd}
               buyCakeLabel={buyCakeLabel}
               mb={[`${MOBILE_MENU_HEIGHT}px`, null, "0px"]}
-            /> */}
+            /> 
           </Inner>
         </BodyWrapper>
         {isMobile && <BottomNav items={links} activeItem={activeItem} activeSubItem={activeSubItem} />}
