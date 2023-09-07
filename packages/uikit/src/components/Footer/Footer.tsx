@@ -86,12 +86,9 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
             />
           </Flex>
           <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
-            <Box mr="20px">
-              <CakePrice cakePriceUsd={cakePriceUsd} color={darkColors.textSubtle as keyof Colors} />
-            </Box>
             <Button
               as="a"
-              href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56"
+              href="https://odiswap.com/swap?chainId=8217"
               target="_blank"
               scale="sm"
               endIcon={<ArrowForwardIcon color={lightColors.backgroundAlt} />}
