@@ -152,9 +152,9 @@ export const baobab: Chain = {
     symbol: 'KLAY',
   },
   rpcUrls: {
-    default: 'https://public-node-api.klaytnapi.com/v1/baobab',
+    default: 'https://klaytn-baobab-rpc.allthatnode.com:8551/sPrgbg8MAzo2bc10wlCMWg99bQzR81yJ',
     // https://docs.nodereal.io/nodereal/meganode/meganode-api-overview/public-api-key
-    nodeReal: 'https://public-node-api.klaytnapi.com/v1/baobab',
+    nodeReal: 'https://klaytn-baobab-rpc.allthatnode.com:8551/sPrgbg8MAzo2bc10wlCMWg99bQzR81yJ',
   },
   blockExplorers: {
     default: { name: 'klaytnscope', url: 'https://baobab.scope.klaytn.com' },
@@ -176,9 +176,9 @@ export const klaytn: Chain = {
     symbol: 'KLAY',
   },
   rpcUrls: {
-    default: 'https://klaytn-mainnet-rpc.allthatnode.com:8551/MxDQZbEaNSiQAeDcuklzf6Tp4LP8xFsL',
+    default: 'https://klaytn-mainnet-rpc.allthatnode.com:8551/sPrgbg8MAzo2bc10wlCMWg99bQzR81yJ',
     // https://docs.nodereal.io/nodereal/meganode/meganode-api-overview/public-api-key
-    nodeReal: 'https://klaytn-mainnet-rpc.allthatnode.com:8551/MxDQZbEaNSiQAeDcuklzf6Tp4LP8xFsL',
+    nodeReal: 'https://klaytn-mainnet-rpc.allthatnode.com:8551/sPrgbg8MAzo2bc10wlCMWg99bQzR81yJ',
   },
   blockExplorers: {
     default: { name: 'klaytnscope', url: 'https://scope.klaytn.com' },
